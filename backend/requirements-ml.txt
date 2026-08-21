@@ -1,0 +1,4 @@
+# Optional production-quality local embedding provider.
+# The app gracefully falls back to deterministic local hashing when this package
+# or its model weights are not available, which keeps offline tests reliable.
+sentence-transformers==3.4.1
